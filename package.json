@@ -4,16 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EmilBacklund/npm-test2.git"
   },
-  "author": "Emil Backlund",
+  "author": "emil backlund",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EmilBacklund/npm-test2/issues"
   },
-  "homepage": "https://github.com/EmilBacklund/npm-test2#readme"
+  "homepage": "https://github.com/EmilBacklund/npm-test2#readme",
+  "devDependencies": {
+    "vite": "^3.1.0"
+  }
 }
